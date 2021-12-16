@@ -1,0 +1,56 @@
+//Config globales para toda la app
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
+}
+
+/*separator line*/
+.gtdivider-o {
+    display: flex !important;
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 0 16px;
+}
+
+.gtdivider-o hr {
+    flex: 1 0;
+    border-bottom: 1px solid rgba(64, 87, 109, .07);
+    border: none;
+    height: 1px;
+    margin: 7px 0;
+    color: rgba(47, 64, 80, .25);
+}
+
+.gtdivider-o span {
+    margin: 10px 8px;
+    color: rgba(47, 64, 80, .25);
+}
+
+/* end */
+
+/* width */
+.w-150 {
+    width: 150px;
+}
+/* end */
+
+
+
+//margenes,..
